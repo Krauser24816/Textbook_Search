@@ -1,0 +1,11 @@
+Searching Algorithm-Textbook search
+
+1.  Calculate middle position.
+2.  Take an incrementer and decrementer and assign them same value as middle position.
+3.  See if number of elements are odd or even.
+4.  If odd then do the following:
+     (a).  Search for element  at array[incrementer] and array[decrementer].
+     (b).  If not found then incrementer the incrementer and decrement the decrementer and then do step 4(a).
+5.  If even then do the following:
+     (a).  Do step 4(a).
+     (b).  If not found then increment the incrementer till middle position-1 and decrement the decrementer and then do step 4(a).
